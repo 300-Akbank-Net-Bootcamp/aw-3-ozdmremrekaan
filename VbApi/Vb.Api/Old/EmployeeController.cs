@@ -59,6 +59,7 @@ public class MinLegalSalaryRequiredAttribute : ValidationAttribute
 
 [Route("api/[controller]")]
 [ApiController]
+[NonController]
 public class EmployeeController : ControllerBase
 {
     public EmployeeController()

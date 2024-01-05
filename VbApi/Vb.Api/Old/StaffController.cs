@@ -21,6 +21,7 @@ public class Staff
 
 [Route("api/[controller]")]
 [ApiController]
+[NonController]
 public class StaffController : ControllerBase
 {
     public StaffController()
